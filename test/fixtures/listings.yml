@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  listing_id: 1
+  description: MyText
+  condition_id: one
+  card_number: 1
+  card_name: MyString
+  card_set: MyText
+  category_id: one
+  subcategory_id: one
+  delivery_id: one
+  price: 9.99
+  trade_id: one
+  seller_id: one
+  user_id: one
+  stripe_id: 1
+
+two:
+  listing_id: 1
+  description: MyText
+  condition_id: two
+  card_number: 1
+  card_name: MyString
+  card_set: MyText
+  category_id: two
+  subcategory_id: two
+  delivery_id: two
+  price: 9.99
+  trade_id: two
+  seller_id: two
+  user_id: two
+  stripe_id: 1

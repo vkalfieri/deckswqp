@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Listing:</strong>
+  <%= @listing.listing_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @listing.description %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @listing.condition_id %>
+</p>
+
+<p>
+  <strong>Card number:</strong>
+  <%= @listing.card_number %>
+</p>
+
+<p>
+  <strong>Card name:</strong>
+  <%= @listing.card_name %>
+</p>
+
+<p>
+  <strong>Card set:</strong>
+  <%= @listing.card_set %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @listing.category_id %>
+</p>
+
+<p>
+  <strong>Subcategory:</strong>
+  <%= @listing.subcategory_id %>
+</p>
+
+<p>
+  <strong>Delivery:</strong>
+  <%= @listing.delivery_id %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @listing.price %>
+</p>
+
+<p>
+  <strong>Trade:</strong>
+  <%= @listing.trade_id %>
+</p>
+
+<p>
+  <strong>Seller:</strong>
+  <%= @listing.seller_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @listing.user_id %>
+</p>
+
+<p>
+  <strong>Stripe:</strong>
+  <%= @listing.stripe_id %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>

@@ -1,0 +1,87 @@
+<%= form_for(listing) do |f| %>
+  <% if listing.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(listing.errors.count, "error") %> prohibited this listing from being saved:</h2>
+
+      <ul>
+      <% listing.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :listing_id %>
+    <%= f.number_field :listing_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+
+  <div class="field">
+    <%= f.label :condition_id_id %>
+    <%= f.text_field :condition_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :card_number %>
+    <%= f.number_field :card_number %>
+  </div>
+
+  <div class="field">
+    <%= f.label :card_name %>
+    <%= f.text_field :card_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :card_set %>
+    <%= f.text_area :card_set %>
+  </div>
+
+  <div class="field">
+    <%= f.label :category_id_id %>
+    <%= f.text_field :category_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :subcategory_id_id %>
+    <%= f.text_field :subcategory_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :delivery_id_id %>
+    <%= f.text_field :delivery_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :price %>
+    <%= f.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= f.label :trade_id_id %>
+    <%= f.text_field :trade_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :seller_id_id %>
+    <%= f.text_field :seller_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :user_id_id %>
+    <%= f.text_field :user_id_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :stripe_id %>
+    <%= f.number_field :stripe_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

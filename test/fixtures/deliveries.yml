@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  delivery_id: 1
+  delivery_type: 1
+  user_id: one
+  listing_id: one
+
+two:
+  delivery_id: 1
+  delivery_type: 1
+  user_id: two
+  listing_id: two
