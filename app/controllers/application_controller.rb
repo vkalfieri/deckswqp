@@ -15,9 +15,9 @@ class ApplicationController < ActionController::Base
        store_location_for(:user, request.fullpath)
      end
    end
- end
 
- def after_sign_out_path_for(resource_or_scope)
+
+  def after_sign_out_path_for(resource_or_scope)
    'pages#home'
-      end
+  end
 end

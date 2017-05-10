@@ -85,11 +85,20 @@ z-index: 999;}
   color: #000000
 }
 
+
+}
+
 .logo h1 {
+    /*background-color: #f78f3f;*/
     color: #e23636;
     font-family: 'Mitr', sans-serif;
     font-size: 40px;
     margin: 40px 0;font-weight: 400;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }
 .logo h1 a {
     color: #999;
